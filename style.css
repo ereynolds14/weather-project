@@ -4,5 +4,28 @@ body {
 
 .weather-app {
     background: skyblue;
+    max-width: 600px;
+    margin: 45px auto;
+    box-shadow:0 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 16px;
+    padding: 30px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.search-form-input {
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+    width: 70%;
+    padding: 15px;
+}
+
+.header {
+    border-bottom: 1px solid #f9f7fe;
+}
+
+
+.footer {
+    border-top: 1px solid #f9f7fe;
 }
 
