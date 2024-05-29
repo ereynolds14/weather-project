@@ -15,7 +15,7 @@ body {
 header {
     border-bottom: 1px solid whitesmoke;
     margin-bottom: 30px;
-    padding: 0, 0, 30px, 0;
+    padding: 0 0 30px 0;
 }
 
 .search-form-input {
@@ -36,6 +36,47 @@ header {
     font-size: 16px;
 }
 
+.weather-app-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-app-city {
+    margin: 0;
+    font-size: 38px;
+    line-height: 48px;
+}
+
+.weather-app-details {
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.weather-app-details strong {
+    color: palevioletred;
+}
+
+.weather-app-temperature-container {
+    display: flex;
+    font-size: 68px;
+}
+
+.weather-app-temperature-value {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.weather-app-icon {
+    font-size: 36px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.weather-app-unit {
+    margin-top: 10px;
+    font-size: 28px;
+}
 footer {
     border-top: 1px solid whitesmoke;
     padding: 30px 0 0 0;
