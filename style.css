@@ -17,14 +17,13 @@ header {
     margin-bottom: 30px;
     padding: 0 0 30px 0;
 }
-
-.search-form-input {
+#search-form-input {
     background-color: whitesmoke;
     border: none;
     border-radius: 6px;
     width: 80%;
     padding: 15px 20px;
-    font-size: 16px
+    font-size: 16px;
 }
 
 .search-form-button {
@@ -52,8 +51,14 @@ header {
     font-size: 16px;
 }
 
-.weather-app-details strong {
+#humidity {
     color: palevioletred;
+    font-weight: bold;
+}
+
+#wind {
+    color: palevioletred;
+    font-weight: bold;
 }
 
 .weather-app-temperature-container {
