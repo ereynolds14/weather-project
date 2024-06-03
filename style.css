@@ -72,9 +72,8 @@ header {
 }
 
 .weather-app-icon {
-    font-size: 36px;
-    margin-left: 10px;
-    margin-top: 10px;
+   width: 88px;
+   height: 88px;
     
 }
 
