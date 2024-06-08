@@ -77,8 +77,8 @@ header {
 
 .weather-forecast {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
 
 .weather-app-icon {
@@ -96,13 +96,11 @@ header {
 
 .weather-forecast-date {
     font-size: 16px;
-    font-weight: 300;
+    line-height: 24px;
+    
 }
 
-.weather-forecast-icon {
-    width: 55px;
-    height: 55px;
-}
+
 
 .weather-forecast-temperatures {
     font-size: 13px;
